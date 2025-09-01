@@ -14,9 +14,11 @@ The VPN "PrivateInternetAccess", or PIA, offers a large number of servers in sev
 ## Requirements
 
 - Python 3 & `pip` or [`uv`](https://docs.astral.sh/uv/)
-- Windows (other OS untested!)
+- **Windows and Linux supported** & tested (likely works on macOS, too)
 
 You do **not** need an active PIA/VPN subscription for this script to work.
+
+The script was tested and works fine on (Debian-based) Linux servers.
 
 ## Setup
 
