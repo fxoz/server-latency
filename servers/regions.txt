@@ -1,0 +1,97 @@
+Albania
+Algeria
+Argentina
+Armenia
+AU Melbourne
+AU Perth
+Austria
+Bahamas
+Belgium
+Brazil
+Bulgaria
+CA Montreal
+CA Vancouver
+Cambodia
+China
+Cyprus
+Czech Republic
+DE Berlin
+DE Frankfurt
+Denmark
+Egypt
+Estonia
+Finland
+France
+Georgia
+Greenland
+Hong Kong
+Hungary
+Iceland
+Isle Of Man
+Italy
+Kazakhstan
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Malta
+Mexico
+Moldova
+Monaco
+Montenegro
+Morocco
+Netherlands
+New Zealand
+Nigeria
+Norway
+Panama
+Philippines
+Poland
+Portugal
+Qatar
+Saudi Arabia
+Serbia
+Singapore
+Spain
+Sri Lanka
+Sweden
+Switzerland
+Taiwan
+Turkey
+UK London
+UK Manchester
+UK Southampton
+Ukraine
+United Arab Emirates
+US California
+US Chicago
+US Denver
+US Florida
+US Houston
+US Las Vegas
+US New York
+US Seattle
+US Silicon Valley
+US Texas
+US Washington Dc
+Venezuela
+CA Toronto
+AU Sydney
+South Africa
+US Atlanta
+US East
+Slovakia
+Andorra
+Bangladesh
+Israel
+US West
+Vietnam
+Romania
+Japan
+Mongolia
+Greece
+India
+Ireland
+CA Ontario
