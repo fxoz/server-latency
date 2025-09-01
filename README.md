@@ -26,7 +26,7 @@ The script was tested and works fine on (Debian-based) Linux servers.
 
 ### 1. Fetch server list
 
-To get the most accurate results and least amount of errors, it is recommended to download `https://raw.githubusercontent.com/Lars-/PIA-servers/refs/heads/master/export.csv` and place its contents into `servers/export.csv` (replace existing file).
+Download `https://raw.githubusercontent.com/Lars-/PIA-servers/refs/heads/master/export.csv` and place its contents into `servers/export.csv` (replace existing file).
 
 ### 2. Install dependencies (only for `pip`)
 
