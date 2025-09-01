@@ -13,42 +13,50 @@ The VPN "PrivateInternetAccess", or PIA, offers a large number of servers in sev
 
 ## Requirements
 
-- Python 3 & pip
+- Python 3 & `pip` or [`uv`](https://docs.astral.sh/uv/)
 - Windows (other OS untested!)
 
 You do **not** need an active PIA/VPN subscription for this script to work.
 
-## How to use
+## Setup
 
 (Step 0. - Download or clone this repository.)
 
 ### 1. Fetch server list
 
-To get the most accurate results and least amount of errors, it is recommended to download `https://raw.githubusercontent.com/Lars-/PIA-servers/refs/heads/master/export.csv`, place it into `servers/export.csv` (replace existing file).
+To get the most accurate results and least amount of errors, it is recommended to download `https://raw.githubusercontent.com/Lars-/PIA-servers/refs/heads/master/export.csv` and place its contents into `servers/export.csv` (replace existing file).
 
-### 2. Install dependencies
+### 2. Install dependencies (only for `pip`)
 
 ```cmd
 pip install -r requirements.txt
 ```
 
-### 3. Run the script (without VPN/with your usual internet connection!)
+### 3. Run the script (without VPN enabled!)
+
+⚠️ **Run the script from this directory!**
 
 ```cmd
 py main.py
 ```
 
+(or `uv run main.py` if using `uv`)
+
+## Configuration
+
 Currently, the script only supports selecting an entire continent, but don't worry, it doesn't take long (unless you set a very high amount of servers per region, see below).
 
 If there is no `config.json` in *this* directory (`README.md`, `main.py` etc.), follow the instructions in the terminal, it will generate the file for you. To reset your config, simply delete said file.
 
-✅ The server latencies may change over time, feel free to use a higher amount of servers per region (again, delete `config.json` to reset config and rerun the script to change it).
+The server latencies may change over time, feel free to use a higher amount of servers per region (again, delete `config.json` to reset config and rerun the script to change it).
 
-⚠️ The results may seem surprising for so-called **Geo-located** regions (e.g. currently Andorra, Bosnia, Liechtenstein, Luxembourg, Montenegro, among many others). These servers report an IP in the respective country, but are actually physically located in another country and thus may have an entirely different latency than expected (sometimes for the better). From my tests, my script reports accurate results/latencies for these servers, as well.
+## Geo-located servers and unexpected results
+
+The results may seem surprising for so-called **Geo-located** regions (e.g. currently Andorra, Bosnia, Liechtenstein, Luxembourg, Montenegro, among many others). These servers report an IP in the respective country, but are actually physically located in another country and thus may have an entirely different latency than expected (sometimes for the better). From my tests, my script reports accurate results/latencies for these servers, as well.
 
 ## Tips for more accurate results & lower latency
 
-⚠️ Run speedtests like [https://speed.cloudflare.com/](https://speed.cloudflare.com/) a **few seconds after starting the VPN connection**, and **run it 2-3 times**, as the VPN connection may take a few seconds to stabilize.
+Run speedtests like [https://speed.cloudflare.com/](https://speed.cloudflare.com/) a **few seconds after starting the VPN connection**, and **run it 2-3 times**, as the VPN connection may take a few seconds to stabilize.
 
 More general tips:
 
