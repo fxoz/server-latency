@@ -62,6 +62,10 @@ def main():
     config = setup()
     servers = fetch_servers.fetch_server_data()
 
+    print(
+        f"\n[bold green]Servers fetched: {sum(len(v) for v in servers.values())}[/bold green]"
+    )
+
     servers = {
         region: random.sample(ips, min(len(ips), config["servers_per_region"]))
         for region, ips in servers.items()
@@ -69,7 +73,7 @@ def main():
     }
 
     print(
-        f"\n[bold green]{sum(len(v) for v in servers.values())} Servers available[/bold green]"
+        f"\n[bold green]{sum(len(v) for v in servers.values())} Servers will be checked[/bold green]"
     )
 
     print(servers)
